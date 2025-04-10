@@ -1,4 +1,7 @@
 package classes;
 
-public class funcionario {
+public class Funcionario {
+
+    private double horario;
+    private String cargo;
 }
