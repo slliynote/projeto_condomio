@@ -1,6 +1,6 @@
 package classes;
 
-public class reservaEspaço {
+public class ReservaEspaco {
 
     private String salao;
     private String churrasqueira;
