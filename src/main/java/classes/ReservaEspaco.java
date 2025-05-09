@@ -1,10 +1,13 @@
 package classes;
 
-public class ReservaEspaco {
+public class ReservaEspaco extends Pessoa{
 
-    private String salao;
-    private String churrasqueira;
-    private String quadraSportiva;
-    private String horarioAgendado;
+    public enum Espaços{
+        salao,
+        churrasqueira,
+        quadraSportiva,
+        horarioAgendado,
+    };
+
 
 }

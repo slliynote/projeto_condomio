@@ -1,6 +1,6 @@
 package classes;
 
-public class Moradores {
+public class Moradores extends Pessoa{
 
     private double bloco;
     private double numeroDeResidencia;

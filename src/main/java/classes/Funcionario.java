@@ -1,10 +1,18 @@
 package classes;
 
-public class Funcionario {
+public class Funcionario extends Pessoa{
 
     private double horario;
-    private String cargo;
+
+    public enum cargo{
+        zelador,
+        porteiro,
+        sindico,
+        empregada,
+    };
+
+
     private double pontos;
     private double historicosDePresenças;
-    // nome na classe abstrata
+
 }
